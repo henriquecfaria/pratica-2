@@ -8,5 +8,11 @@ public class MainEstoque {
         e1.setQtdMinima(5);
         System.out.println(e1.mostra());
 
+        Estoque e2 = new Estoque(1,"caderno",20,1 );
+        e2.darBaixa(10);
+        System.out.println("Estoque Atual: " + e2.getQtdAtual());
+        e2.darBaixa(1000);
+        System.out.println(e2.precisaRepor());
+
     }
 }

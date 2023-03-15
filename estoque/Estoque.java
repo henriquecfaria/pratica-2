@@ -15,7 +15,7 @@ public class Estoque {
         this.qtdAtual = qtdAtual;
         this.qtdMinima = qtdMinima;
     }
-    public estoque(int cod,String produto){
+    public Estoque(int cod,String produto){
         this.codProduto = cod;
         this.nome = produto;
     }
